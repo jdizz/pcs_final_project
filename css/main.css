@@ -142,6 +142,19 @@ aside p {
 /*************************
 PAGE: MASSAGE
 **************************/
+#description {
+  vertical-align: text-top;
+  padding-bottom: 4px;
+}
+
+#service {
+  padding-top: 10px;
+}
+
+#cost {
+  padding-right: 10px;
+  padding-top: 10px;
+}
 
 
 /*************************
