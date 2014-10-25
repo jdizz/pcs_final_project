@@ -23,10 +23,6 @@ margin: 0 auto;
 padding: 0 5%;
 }
 
-.page {
-  width: 80%;
-}
-
 a {
   text-decoration: none;
 }
@@ -161,13 +157,15 @@ PAGE: MASSAGE
 PAGE: Contact Us
 **************************/
 
-ul.social {
-    list-style: none;
-    padding-left: 20px;
+.contact_us {
+  float: left;
+  margin-right: 100px;
 }
 
-ul.social li a {
-    float: left;
+.map {
+  float: left;
+  margin-top: 20px;
+
 }
 
 /*************************
@@ -233,6 +231,10 @@ nav a.selected, nav a:hover {
 
 section {
   color: #03B4B3;
+}
+
+.content h2 {
+  color: black;
 }
 
 aside {
