@@ -195,11 +195,15 @@ COLORS
 **************************/
 
 /* header  */
-header h1 {
-  color: #black;
+h1 {
+  color: black;
 }
 
-header h2 {
+h1.selected, h1:hover {
+  color: #03B4B3;
+}
+
+header h2 a {
   color: #03B4B3;
 }
 
