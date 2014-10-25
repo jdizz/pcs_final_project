@@ -1,0 +1,262 @@
+/*************************
+GENERAL - GLOBAL
+**************************/
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  max-width: 95%;
+}
+
+#wrapper {
+max-width: 90%;
+margin: 0 auto;
+padding: 0 5%;
+}
+
+.page {
+  width: 80%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*************************
+HEADING - GLOBAL
+**************************/
+
+header {
+  margin-bottom: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.logo {
+  margin 0;
+}
+
+h1 {
+text-align: center;
+font-family: 'Roboto', sans-serif;
+margin: 0 auto;
+font-size: 1.75em;
+line-height: 0.8cm;
+font-weight: 700;
+}
+
+h2 {
+  text-align: center;
+  font-size: 0.65cm;
+  margin: -5px 0 0;
+  font-weight: 500;
+}
+
+/*************************
+NAVIGATION - GLOBAL
+**************************/
+
+nav {
+  text-align: center;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin-left: 0 10px;
+  margin-right: 0;
+}
+
+nav li {
+  display: inline-block;
+
+}
+
+nav a {
+  font-weight: 500;
+  padding: 15px 10px;
+}
+
+
+/*************************
+FOOTER - GLOBAL
+**************************/
+
+footer {
+  font-size: .80em;
+  text-align: center;
+  clear: both;
+  padding-top:50px;
+}
+
+.social-icon {
+  width: 1.6em;
+  height: 1.6em;
+  margin: 0 5px;
+}
+
+/*************************
+PAGE: HOME
+**************************/
+
+.jungle {
+  max-width: 100%;
+  float: left;
+  width: 50%;
+  border-radius: 20px 5px 20px;
+  margin-top: 2em;
+}
+
+/**  ASIDE  **/
+
+.sidebar {
+  float: right;
+  width: 20%;
+}
+
+.sidebar_img {
+  max-width: 100%;
+  width: 20em;
+  border-radius: 20px 5px 20px;
+}
+
+aside {}
+
+aside h2 {
+  font-weight: 500;
+  margin-bottom: .75em;
+}
+
+aside img {}
+
+aside p {}
+
+/*************************
+PAGE: MASSAGE
+**************************/
+
+
+/*************************
+PAGE: Contact Us
+**************************/
+
+ul.social {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul.social li a {
+    float: left;
+}
+
+/*************************
+PAGE: BLOG
+**************************/
+
+.page {
+  margin-left: 50px;
+}
+
+.content {
+  float: right;
+  width: 90%;
+  margin-left: 50px;
+  margin-top: none;
+}
+
+.placeholder {
+  float: right;
+  margin: 20px;
+}
+
+/*************************
+COLORS 
+**************************/
+/* site body  */
+body {
+
+}
+
+/* header  */
+header h1 {
+  color: #black;
+}
+
+header h2 {
+  color: #03B4B3;
+}
+
+header h3 {
+  color: black;
+  font-size: 16pt;
+}
+
+/* nav background on mobile */
+nav {
+  color: #03B4B3;
+}
+
+/* links  */
+a {
+  color: #03B4B3;
+}
+
+/* selected nav link  */
+nav a.selected, nav a:hover {
+  color: #fff;
+}
+
+section {
+  color: #03B4B3;
+}
+
+aside {
+  color: #03B4B3;
+}
+
+aside p {
+  color: black;
+}
+
+footer {
+  color: #03B4B3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
