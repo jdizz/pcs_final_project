@@ -6,8 +6,18 @@ img.logo {
   margin-top: 1em;
 }
 
-h1 {
+header h1 {
+  font-size: 2em;
   padding-top: 1em;
+}
+
+header h2 {
+  font-size: 1.1em;
+  padding-top: .75em;
+}
+
+nav {
+margin-left: -2em;
 }
 
 img.jungle {
@@ -22,7 +32,7 @@ img.jungle {
 }
 
 footer {
-
+  padding-top: 5em;
 }
 
 
@@ -53,15 +63,14 @@ footer {
     width: 15%;
   }  
 
- h1 {
+ header h1 {
     font-weight: 700;
-    font-size: 2em;
+    font-size: 2.5em;
+    margin-bottom: .5em;
   } 
-    
-  h2 {
-    font-weight: 300;
-    font-style: italic;
-    font-size: 1.5em;
+
+  aside h2 {
+    font-size: 1em;
   }
 
   header {

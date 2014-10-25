@@ -58,7 +58,8 @@ h2 {
   text-align: center;
   font-size: 0.65cm;
   margin: -5px 0 0;
-  font-weight: 500;
+  font-weight: 300;
+  font-style: italic;
 }
 
 /*************************
@@ -95,7 +96,7 @@ footer {
   font-size: .80em;
   text-align: center;
   clear: both;
-  padding-top:50px;
+  padding-top: 1.5em;
 }
 
 .social-icon {
@@ -113,7 +114,7 @@ PAGE: HOME
   float: left;
   width: 50%;
   border-radius: 20px 5px 20px;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 /**  ASIDE  **/
@@ -129,16 +130,14 @@ PAGE: HOME
   border-radius: 20px 5px 20px;
 }
 
-aside {}
-
 aside h2 {
   font-weight: 500;
-  margin-bottom: .75em;
+  margin-bottom: .50em;
 }
 
-aside img {}
-
-aside p {}
+aside p {
+  text-align: center;
+}
 
 /*************************
 PAGE: MASSAGE
@@ -181,10 +180,6 @@ PAGE: BLOG
 /*************************
 COLORS 
 **************************/
-/* site body  */
-body {
-
-}
 
 /* header  */
 header h1 {
@@ -193,6 +188,10 @@ header h1 {
 
 header h2 {
   color: #03B4B3;
+}
+
+header h2.selected, header h2:hover {
+  color: black;
 }
 
 header h3 {
@@ -212,7 +211,7 @@ a {
 
 /* selected nav link  */
 nav a.selected, nav a:hover {
-  color: #fff;
+  color: black;
 }
 
 section {
@@ -220,7 +219,7 @@ section {
 }
 
 aside {
-  color: #03B4B3;
+  color: black;
 }
 
 aside p {
